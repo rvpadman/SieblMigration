@@ -1,0 +1,28 @@
+<table height="400" width="600" cellpadding="5" border="0" cellspacing="5" >
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<pre class="codeblock nolang" style="margin-top: 20px; margin-bottom: 0px; margin-left: 20px; font-family: 'Courier New', Courier, monospace; font-size: 11.7072010040283px; white-space: pre-wrap; word-wrap: break-word; padding: 0px; border: 1px solid rgb(204, 204, 204); width: 713.778381347656px; overflow: auto; background-color: rgb(250, 250, 250);"><pre class="codeblock nolang" style="margin-top: 20px; margin-bottom: 0px; margin-left: 20px; font-family: 'Courier New', Courier, monospace; font-size: 11.7072010040283px; white-space: pre-wrap; word-wrap: break-word; padding: 0px; border: 1px solid rgb(204, 204, 204); width: 713.778381347656px; overflow: auto;">{!Case.OwnerFullName} has requested your approval for 
+the following item.</pre></pre>]]></td>
+</tr>
+<tr height="300" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r2" locked="0" aEditID="c1r2" >
+<![CDATA[<pre class="codeblock nolang" style="margin-top: 20px; margin-bottom: 0px; margin-left: 20px; font-family: 'Courier New', Courier, monospace; font-size: 11.7072010040283px; white-space: pre-wrap; word-wrap: break-word; padding: 0px; border: 1px solid rgb(204, 204, 204); width: 713.778381347656px; overflow: auto; background-color: rgb(250, 250, 250);">To approve or reject this item, reply to this email with
+the word APPROVE, APPROVED, YES, REJECT, REJECTED, or NO
+in the first line of the email message, or click this link:
+ 
+{!ApprovalRequest.Process_Step_Name}
+ 
+If replying via email you can also add comments on the 
+second line. The comments will be stored with the approval 
+request in Salesforce CRM.</pre><pre class="codeblock nolang" style="margin-top: 20px; margin-bottom: 0px; margin-left: 20px; font-family: 'Courier New', Courier, monospace; font-size: 11.7072010040283px; white-space: pre-wrap; word-wrap: break-word; padding: 0px; border: 1px solid rgb(204, 204, 204); width: 713.778381347656px; overflow: auto; background-color: rgb(250, 250, 250);"><br></pre><pre class="codeblock nolang" style="margin-top: 20px; margin-bottom: 0px; margin-left: 20px; font-family: 'Courier New', Courier, monospace; font-size: 11.7072010040283px; white-space: pre-wrap; word-wrap: break-word; padding: 0px; border: 1px solid rgb(204, 204, 204); width: 713.778381347656px; overflow: auto; background-color: rgb(250, 250, 250);"><pre class="codeblock nolang" style="margin-top: 20px; margin-bottom: 0px; margin-left: 20px; font-family: 'Courier New', Courier, monospace; font-size: 11.7072010040283px; white-space: pre-wrap; word-wrap: break-word; padding: 0px; border: 1px solid rgb(204, 204, 204); width: 713.778381347656px; overflow: auto;">Note: For salesforce.com to process your response the word 
+APPROVE, APPROVED, YES, REJECT, REJECTED, or NO must be in 
+the very first line of the reply email. Also, any comment
+must be in the second line. </pre></pre>]]></td>
+</tr>
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r3" locked="0" aEditID="c1r3" >
+<![CDATA[<pre class="codeblock nolang" style="margin-top: 20px; margin-bottom: 0px; margin-left: 20px; font-family: 'Courier New', Courier, monospace; font-size: 12.8779211044312px; white-space: pre-wrap; word-wrap: break-word; padding: 0px; border: 1px solid rgb(204, 204, 204); width: 713.778381347656px; overflow: auto; background-color: rgb(250, 250, 250);">You can also approve, reject and comment on this request from your <span class="ph" style="font-size: 12.8779211044312px;">Chatter</span> feed:
+ 
+[link to approval post in <span class="ph" style="font-size: 12.8779211044312px;">Chatter</span>]</pre>]]></td>
+</tr>
+</table>

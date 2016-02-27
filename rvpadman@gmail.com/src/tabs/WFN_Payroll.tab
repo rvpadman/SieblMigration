@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>External Website</description>
+    <frameHeight>600</frameHeight>
+    <hasSidebar>false</hasSidebar>
+    <label>WFN Portal</label>
+    <mobileReady>false</mobileReady>
+    <motif>Custom21: Computer</motif>
+    <url>http://www.adp.com</url>
+    <urlEncodingKey>UTF-8</urlEncodingKey>
+</CustomTab>

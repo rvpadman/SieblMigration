@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <description>Describe the objects that you want to Chatter to parent when they are created.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Chatter_Link_Title__c</fullName>
+        <description>The title of the hyperlink to the newly created record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the title that will be displayed in the link. Leave it blank if you do not wish to see a hyperlink to the newly created record in the Chatter post.</inlineHelpText>
+        <label>Chatter Link Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Chatter_Post_Body__c</fullName>
+        <description>The body of the Chatter post to be created.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the text that you want to see in the created Chatter post.</inlineHelpText>
+        <label>Chatter Post Body</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Object_API_Name__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>The API name of the object that needs Chatter Up.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the object name. Can be a custom object, or a standard object.</inlineHelpText>
+        <label>Object API Name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_ID_Field__c</fullName>
+        <description>The API name of the field that identifies the parent record.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The API name of the field that identifies the parent record. This needs to be a relationship field (e.g the AccountID field in the Opportunity record)</inlineHelpText>
+        <label>Parent ID Field</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Picklist_Values__c</fullName>
+        <description>The Values that are allowed when Chatter Up is checking the &apos;Picklist That Constrains&apos; field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the values that you want to specify when Chatter Up occurs. e.g. For the Priority on a new Case, you could specify &apos;High;Low&apos; (no quotes) to ensure that only High Priority or Low Priority cases Chatter Up.</inlineHelpText>
+        <label>Picklist Values</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Picklist_that_Constrains_Chatter_Up__c</fullName>
+        <description>The API name of the field that Chatter Up will reference when deciding if this particular record will Chatter Up.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The API name of the field that Chatter Up will reference when deciding if this particular record will Chatter Up. e.g. the Priority field on the Case object</inlineHelpText>
+        <label>Picklist that Constrains Chatter Up</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Chatter Up</label>
+</CustomObject>

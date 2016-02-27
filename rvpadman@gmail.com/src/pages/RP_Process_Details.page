@@ -1,0 +1,32 @@
+<apex:page standardController="RP_Process__kav" docType="html-5.0" applyHtmlTag="true" applyBodyTag="false"
+           showHeader="false" sidebar="false" standardStylesheets="false" >
+           
+    <head>
+        <title>{!RP_Process__kav.Title}</title>
+        <!-- <apex:stylesheet value="/resources/htdocs/css/basic.css" /> -->
+        <style>
+            body .bPageTitle .ptBody .pageType { font-size: 2em; font-weight: normal; margin: 9px 0 0 0; color: #000; }
+            body div[id*=infoBlock] { margin: 15px 0 0 0; }
+            [id*=sumLinks] ol { list-style-type: decimal-leading-zero; }
+            [id*=sumLinks] li span { color: #000; font-size: 16px; padding: 5px 0 15px 0; }
+            [id*=sumLinks] li { margin: 0 0 5px 0; }
+        </style>
+    </head>
+    
+    <body>
+        <apex:sectionHeader title="{!RP_Process__kav.Title}" subtitle="" />
+        <!-- <knowledge:articleRendererToolBar articleId="{! $CurrentPage.parameters.id}" includeCSS="true" showChatter="false" /> -->
+        
+        <apex:pageBlock id="infoBlock" title="{!RP_Process__kav.Title}">
+            <p style="margin:10px 0 15px 0;">{!RP_Process__kav.Summary}</p> 
+        </apex:pageBlock>
+
+        <!-- <p><apex:outputField id="sumLinks" value="{!RP_Process__kav.Process_Details__c}" /></p> -->
+        
+        
+        <apex:outputPanel layout="block" html-data-role="panel" html-data-id="main">
+            <apex:outputField id="sumLinks" value="{!RP_Process__kav.Process_Details__c}" />    
+        </apex:outputPanel>
+    </body>
+    
+</apex:page>

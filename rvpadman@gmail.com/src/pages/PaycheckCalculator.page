@@ -1,0 +1,17 @@
+<apex:page >
+    <apex:includeScript value="/support/console/25.0/integration.js"/>
+    <A HREF="#" onClick="testSetCustomConsoleComponentButtonIconUrl();return false">
+         Click here to set the custom console component button icon</A> 
+
+    <script type="text/javascript">
+        
+        function showConsoleUrl(result) {
+            alert(result.consoleUrl);
+        }
+    
+    
+        function testSetCustomConsoleComponentButtonIconUrl() {
+            sforce.console.generateConsoleUrl('http://www.paycheckcity.com/coadp4/grossUpCalculator.asp',showConsoleUrl);
+        }
+    </script>
+</apex:page>

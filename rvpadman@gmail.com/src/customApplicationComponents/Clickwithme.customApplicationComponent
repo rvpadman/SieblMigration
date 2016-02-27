@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplicationComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buttonIconUrl>http://www.yahoo.com</buttonIconUrl>
+    <buttonText>ClickWithMe</buttonText>
+    <isHeightFixed>false</isHeightFixed>
+    <isHidden>false</isHidden>
+    <isWidthFixed>false</isWidthFixed>
+    <visualforcePage>npo02__userRollupSettings</visualforcePage>
+</CustomApplicationComponent>

@@ -1,0 +1,1 @@
+<apex:page action="{! urlFor('https://www.paycheckcity.com/coadp4/grossUpCalculator.asp') }" />

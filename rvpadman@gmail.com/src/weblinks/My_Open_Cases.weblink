@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <description>Display all open cases assigned to me</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>My Open Cases</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>https://na15.salesforce.com/500?fcf=00Bi0000005kOir</url>
+</CustomPageWebLink>

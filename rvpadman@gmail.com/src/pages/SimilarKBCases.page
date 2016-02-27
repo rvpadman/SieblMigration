@@ -1,0 +1,16 @@
+<apex:page standardController="Case" extensions="SimilarKBCasesExtension">
+    <apex:form >
+       <apex:sectionHeader title="Similar Cases" subtitle="{!Case.CaseNumber}"/>
+       <apex:pageBlock title="Similar Cases to {!Case.CaseNumber}">
+        <apex:pageBlockTable value="{!similarCases}" var="case">
+            <apex:column >
+                <apex:outputLink value="{!URLFOR($Action.Case.View, case.Id)}">View</apex:outputLink>
+            </apex:column>
+            <apex:column headerValue="Case Number" value="{!Case.CaseNumber}"/>
+            <apex:column headerValue="Product" value="{!Case.Product__c}"/>
+            <apex:column headerValue="Expertise" value="{!Case.Expertise__c}"/>
+            <apex:column headerValue="Reason" value="{!Case.Reason}"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+     </apex:form>
+</apex:page>

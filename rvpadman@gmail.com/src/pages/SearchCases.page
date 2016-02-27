@@ -1,0 +1,27 @@
+<apex:page showHeader="false" sidebar="false" standardController="Case">
+<apex:includeScript value="/support/console/22.0/integration.js"/>
+<script type="text/javascript">
+ 
+       function OpenSearchTab() {
+           //Open a new primary tab with the Customer Search page
+           var primaryTabName = 'salesforceTab';
+           if (sforce.console.isInConsole())
+           {
+               sforce.console.openPrimaryTab(null, '/apex/SearchCases', true, 'Search', null, primaryTabName );
+           }
+           else
+           {
+                // to open without a console
+                window.location.href= '/apex/SearchCases';
+           }
+        }
+ 
+       var previousOnload = window.onload;       
+       window.onload = function() {
+           if (previousOnload) {
+                previousOnload();
+            }               
+        OpenSearchTab();
+       }
+</script>
+</apex:page>

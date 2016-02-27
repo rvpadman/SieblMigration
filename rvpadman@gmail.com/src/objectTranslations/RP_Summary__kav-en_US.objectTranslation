@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RP Summary</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RP_Summary</value>
+    </caseValues>
+    <fields>
+        <label><!-- Last Revised --></label>
+        <name>Last_Revised__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summary Intro --></label>
+        <name>Summary_Intro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summary Links --></label>
+        <name>Summary_Links__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
